@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/android_1"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="246dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="635dp"
+        android:rotation="20"
+        android:src="@drawable/circle_3"
+        app:layout_constraintLeft_toLeftOf="@id/android_1"
+        app:layout_constraintTop_toTopOf="@id/imageView2" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="1678dp"
+        android:layout_height="543dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/line_4"
+        app:layout_constraintLeft_toLeftOf="@id/android_1"
+        app:layout_constraintTop_toTopOf="@id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_ellipse_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="238dp"
+        android:layout_height="238dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="481dp"
+        android:src="@drawable/ic_ellipse_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="298dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:background="@drawable/rectangle_2"
+        android:fontFamily="@font/hind"
+
+        android:gravity="center"
+        android:hint="Enter text in Bangla"
+        android:inputType="text"
+        android:maxHeight="50dp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="551dp"
+        android:background="@drawable/ic_rectangle_3"
+
+        android:fontFamily="@font/hind"
+
+        android:gravity="center"
+        android:hint="Category"
+        android:maxHeight="50dp"
+        android:padding="8dp"
+        android:text=""
+        android:textColor="#E90000"
+        android:textColorHint="#898F9B"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/probability"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="604dp"
+        android:background="@drawable/ic_rectangle_3"
+
+        android:fontFamily="@font/hind"
+
+        android:gravity="center"
+        android:hint="Probability"
+        android:maxHeight="50dp"
+        android:padding="8dp"
+        android:text=""
+        android:textColor="#E90000"
+        android:textColorHint="#898F9B"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="186.602dp"
+        android:layout_height="49.6306dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/detect"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="214.5dp"
+        android:layout_marginTop="776dp"
+        android:background="@drawable/ic_c"
+        android:drawablePadding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"/>
+
+    <ImageView
+        android:id="@+id/c"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="771dp"
+        android:background="@drawable/ic_ellipse_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
